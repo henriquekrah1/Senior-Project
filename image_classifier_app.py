@@ -6,7 +6,7 @@ from torchvision import transforms
 from efficientnet_pytorch import EfficientNet
 
 # Load the trained model
-model_path = r"C:\Users\henri\OneDrive\Área de Trabalho\Senior Project\efficientnet_finetuned.pth"
+model_path = r"C:\Users\Henrique\Desktop\Senior-Project-main\efficientnet_finetuned.pth"
 model = EfficientNet.from_pretrained('efficientnet-b0')
 num_features = model._fc.in_features
 model._fc = torch.nn.Linear(num_features, 2)  # Binary classification
@@ -59,7 +59,7 @@ app.geometry("600x700")
 app.configure(bg="#1a1a40")  # background color
 
 # Upload button
-upload_logo = ImageTk.PhotoImage(file=r"C:\Users\henri\OneDrive\Área de Trabalho\Senior Project\image_logos\upload button.png") 
+upload_logo = ImageTk.PhotoImage(file=r"C:\Users\Henrique\Desktop\Senior-Project-main\image_logos\upload button.png") 
 upload_button = tk.Button(
     app, image=upload_logo, command=upload_image,
     bg="#1a1a40", activebackground="#1a1a40", borderwidth=0
