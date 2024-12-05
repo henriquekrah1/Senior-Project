@@ -28,7 +28,7 @@ Instructions to run software (on a WINDOWS based system only):
 
 		pip install -r requirements.txt
 
-7. Before running the application, edit line 9 which reads:
+7. Before running the application, edit line 9 on the file "image_classifier_app.py" which reads:
 
 		model_path = r"C:\Users\Henrique\Desktop\Senior Project\efficientnet_finetuned.pth"
 
