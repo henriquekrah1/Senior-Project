@@ -1,6 +1,7 @@
 # Senior-Project
 AI-generated Image Detection Tool
 
+
 Instructions to run software:
 
 		Download and unzip the main branch files before beginning
