@@ -38,7 +38,19 @@ Change the model_path so that it correctly describes where the file named "effic
 
 		model_path = r"C:\Users\Tommas\Documents\Senior-Project-main\efficientnet_finetuned.pth"
 
-  This will be individual to each user, based on where the file is located on their computer.
+  This will be individual to each user, based on where the file is located on their computer. Similarly, edit line 62 on the same file:
+
+  From this:
+
+  		upload_logo = ImageTk.PhotoImage(file=r"C:\Users\henri\Area de Trabalho\Senior Project\image_logos\upload button.png") 
+
+To the correct location if the upload button.png file, such as:
+
+		upload_logo = ImageTk.PhotoImage(file=r"C:\Users\Henrique\Desktop\Senior-Project-main\image_logos\upload button.png") 
+
+  The image is located on the folder "image_logos" which is downloaded along with this repository.
+
+
 
 8. Run the application:
 		
