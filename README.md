@@ -36,7 +36,7 @@ Change the model_path so that it correctly describes where the file named "effic
 
 		model_path = r"C:\Users\Tommas\Documents\Senior-Project-main\efficientnet_finetuned.pth"
 
-  
+  This will be individual to each user, based on where the file is located on their computer.
 
 8. Run the application:
 		
