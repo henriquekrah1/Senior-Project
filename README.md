@@ -3,13 +3,17 @@ AI-generated Image Detection Tool
 
 Instructions to run software:
 
+		Download and unzip the main branch files before beginning
+
 1. Open your computer's command prompt
 
-2. Go to the 'backend' folder and copy the directory
+2. Go to the 'Senior-Project-main' folder and copy the directory
+
+		Example: C:\Users\henri\Desktop\Senior-Project-main
 
 3. On the command prompt type: 
 
-		cd "paste-your-directory" (example: cd C:\Users\Henrique\Desktop\skins-marketplace-root\backend)
+		cd "paste-your-directory" (example: cd C:\Users\henri\Desktop\Senior-Project-main)
 
 4. Set up a virtual environment by running the following command: 
 
@@ -23,8 +27,11 @@ Instructions to run software:
 
 		pip install -r requirements.txt
 
-7. Run the Flask application:
+7. Run the application:
 		
-  		python app.py
+  		python image_classifier_app.py
 
-8. Go back to the main folder ("Software-Engineering-project-main") and open the file named 'homepage.html' with your browser
+8. Click the upload button (logo), and select whichever image you wish to analyze
+   
+
+IMPORTANT NOTE: the application works only with common images formats such as .JPEG or .PNG
