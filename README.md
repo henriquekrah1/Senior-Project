@@ -44,7 +44,7 @@ Change the model_path so that it correctly describes where the file named "effic
 
   		upload_logo = ImageTk.PhotoImage(file=r"C:\Users\henri\Area de Trabalho\Senior Project\image_logos\upload button.png") 
 
-To the correct location if the upload button.png file, such as:
+To the correct location of the "upload button.png" file, such as:
 
 		upload_logo = ImageTk.PhotoImage(file=r"C:\Users\Henrique\Desktop\Senior-Project-main\image_logos\upload button.png") 
 
