@@ -2,7 +2,7 @@
 AI-generated Image Detection Tool
 
 
-Instructions to run software:
+Instructions to run software (on a WINDOWS based system only):
 
 		Download and unzip the main branch files before beginning
 
