@@ -1,4 +1,4 @@
-# Senior-Project
+# AI-Generated Image Detection Tool (Senior-Project)
 AI-generated Image Detection Tool
 
 REQUIREMENTS: Windows OS, Python (current version)
